@@ -1,0 +1,76 @@
+<html>
+<head>
+    <style>
+    html {
+        scroll-behavior: smooth;
+    }
+    </style>
+    <title>Aakash Mahindreker</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+        });
+     
+    });
+    });
+    </script>
+</head>
+<body>
+    
+      <header>
+          <nav>
+              <div class="row clearfix">
+                  <img src="images/snap.png" class="logo">
+
+                  <ul class="main-nav animate__animated animate__lightSpeedInRight" id="check-class">
+                      <li><a href="res/const.html">SOCIAL ACCOUNTS</a></li>
+                      <li><a href="res/const.html">GALLERY</a></li>
+                      <li><a href="res/const.html">CONTACT</a></li>
+                  </ul>
+                  <a href="#" class="mobile-icon" onclick="slideshow()" >
+                  <i class="fa fa-align-justify"></i>
+                </a>
+              </div>
+          </nav>
+          <div class="main-content-header">
+          <h1 class="animate__animated animate__lightSpeedInLeft">WELCOME TO <span class="colorchange"> <br>AAKASH MAHINDREKER'S <br>WEBSITE</span><br></h1>
+              <a href="https://www.instagram.com/aakash_mahindreker" class="btn btn-full" Style="color:red;">
+                <img src="https://www.transparentpng.com/thumb/logo-instagram/YfpFOL-logo-instagram-free-transparent.png" width="20px" allign="center">
+                Follow</a>
+              <a href="#panel" id="flip" class="btn btn-nav">Know More</a>
+          </div>
+      </header>
+      <div id="panel"><h1>Hey there this is Aakash!</h1><br><br><h2>About Aakash</h2><br>
+      <p>Aakash is completely down to earth and sweet and kind. He is the best friend anybody could ever wish for! <br>
+         Cuddly like a teddy bear but strong like a man. He is not only loveavle and caring, but also tough and protective.<br> 
+         He holds his emotions and true feelings back. He is very protective of what he cares for.<br> 
+         If you ever find Aakash just hold on tight and never let go cause he is a gem.<br>
+         This person is well dressed and very loved. He is the person with many dreams and desires.<br><br><br?</p></div>
+      <br>
+	<H1>THAT'S ALL FOR NOW!</H1><br><br><br>
+	<script>
+        
+        function slideshow()
+        {
+            var x= document.getElementById('check-class');
+            if(x.style.display === "none"){
+                x.style.display="block";
+            }
+            else{
+                x.style.display="none";
+                
+                }
+        }
+
+    </script>
+</body>
+</html>
